@@ -1,0 +1,32 @@
+/* GLOBAL */
+* {
+  box-sizing: border-box;
+}
+
+/* MAIN */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  background: rgb(65, 91, 239);
+  text-align: center;
+  max-width: 1140px;
+  width: 60vw;
+  border: 1px transparent;
+  border-radius: 2%;
+}
+.header .header-text {
+  color: rgb(246, 244, 244);
+}
+
+/* MEDIA */
+@media only screen and (max-width: 650px) {
+  .width {
+    width: 100vw;
+  }
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxXQUFBO0FBQ0E7RUFDSSxzQkFBQTtBQ0NKOztBREtBLFNBQUE7QUFDQTtFQUNJLGFBQUE7RUFDQSxtQkFBQTtFQUNBLHVCQUFBO0FDRko7O0FESUE7RUFDSSw0QkFBQTtFQUNBLGtCQUFBO0VBQ0EsaUJBQUE7RUFDQSxXQUFBO0VBQ0EsdUJBQUE7RUFDQSxpQkFBQTtBQ0RKO0FERUk7RUFDSSx5QkFBQTtBQ0FSOztBREtBLFVBQUE7QUFDQTtFQUNJO0lBQ0ksWUFBQTtFQ0ZOO0FBQ0YiLCJmaWxlIjoic3R5bGUuY3NzIn0= */
