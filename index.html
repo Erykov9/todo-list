@@ -4,20 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/024f0574f0.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="sass/style.css">
     <title>TO-DO-LIST</title>
 </head>
-<body>
+<body class="bg-dark">
     <div class="box">
-        <div class="container">
-            <div class="header width">
-                <h2 class="header-text">To do List</h2>
-            </div>
-            <div class="body">
-
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">TO DO LIST</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Add tasks</h6>
+                <ul class="list-group list-group-flush list-style" id="task-ul">
+                    <!-- <li class="list-group-item" id="task-li">54325432534523452345234523452345234523452345234 <div class="task-buttons" id="task-div"><button class="btn btn-outline-success" type="button" id="btn-check"><i class="fa-solid fa-check"></i>Button</button><button class="btn btn-outline-danger" type="button" id="btn-cross"><i class="fa-solid fa-xmark"></i>Button</button></div></li>
+                    <li class="list-group-item" id="task-li">Task no.2 <div class="task-buttons" id="task-div"><button class="btn btn-outline-success" type="button" id="btn-check"><i class="fa-solid fa-check"></i>Button</button><button class="btn btn-outline-danger" type="button" id="btn-cross"><i class="fa-solid fa-xmark"></i>Button</button></div></li>
+                    <li class="list-group-item" id="task-li">Task no.3 <div class="task-buttons" id="task-div"><button class="btn btn-outline-success" type="button" id="btn-check"><i class="fa-solid fa-check"></i>Button</button><button class="btn btn-outline-danger" type="button" id="btn-cross"><i class="fa-solid fa-xmark"></i>Button</button></div></li> -->
+                </ul>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Add a task..." aria-label="Recipient's username" aria-describedby="button-addon2" id="task-input">
+                    <button class="btn btn-outline-secondary" type="button" id="button-addon2"><i class="fa-solid fa-check"></i>Submit</button>
+                </div>
             </div>
         </div>
-    </div>
+      </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
