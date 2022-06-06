@@ -43,10 +43,3 @@ function addTask() {
 submitBtn.addEventListener('click', function () {
     addTask(inputArea)
 })
-
-/* 
-    let li = document.createElement('li').classList.add('list-group-item').setAttribute('id', 'task-li');
-    let liDiv = document.createElement('div').classList.add('task-buttons').setAttribute('id', 'task-div');
-    let btnCheck = document.createElement('button').classList.add('btn', 'btn-outline-success');
-    let btnCross = document.createElement('button').classList.add('btn', 'btn-outline-danger');
-*/
